@@ -4,21 +4,19 @@
     cursor: pointer;
     color: white;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 15px;
      font-family: "Bitcount Grid Single", system-ui;
      padding: 20px;
-     transition-duration: 2s;
-     background-color: black;
-     border-radius: 50px;
+     transition-duration: 1.5s;
+     border-radius: 40px;
 }
 
- .navbarnav-links:hover{
+.navbarnav-links:hover{
     color: green !important;
-    
 }
 
 .header .nav-links .navbarnav-links:hover{
-    font-size: 35px;
+    font-size: 20px;
 }
 
 .header{
@@ -26,7 +24,7 @@
     padding: 10px;
 }
 body{
-    background-color: black;
+    background-color: rgb(5, 0, 70);
     margin: 0;
 }
 
@@ -37,18 +35,30 @@ body{
     justify-content: space-between;
     list-style-type: none;
 }
-p, h1{
-    color: white;
-}
 
 *{
-    color: white;
-    font-size: 23px;
+     color: rgb(185, 185, 185);
+    font-size: 19px;
 }
 img{
-    height: 400px;
-    width: 600px;
+    height: 390px;
+    width: 390px;
 }
 .cajasimg{
-    display: inline;
+    display: flex;
+}
+
+.wannaCry {
+    height: 230px;
+    width: 400px;
+}
+.ciberataques {
+    height: 250px;
+}
+.navbarnav-links{
+    background-color: black;
+}
+.indeximg{
+    height: 270px;
+    width: 270px;
 }
