@@ -1,18 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 .header .nav-links .navbarnav-links{
     cursor: pointer;
     color: white;
     text-decoration: none;
     font-size: 15px;
-     font-family: "Bitcount Grid Single", system-ui;
      padding: 20px;
      transition-duration: 1s;
      border-radius: 40px;
-}
-
-.navbarnav-links:hover{
-    color: green !important;
 }
 
 .header .nav-links .navbarnav-links:hover{
@@ -47,7 +41,7 @@ img{
 }
 .cajasimg{
     display: flex;
-    padding: 10px;
+    justify-content: space-evenly;
 }
 
 .wannaCry {
@@ -61,7 +55,7 @@ img{
     background-color: black;
 }
 .indeximg{
-    height: 400px;
+    height: 700px;
     width: 700px;
     padding-left: 20px;
 }
@@ -72,8 +66,8 @@ h2{
     font-size: 30px;
 }
 .buenasimg{
-    height: 300px;
-    width: 370px;
+    height: 500px;
+    width: 450px;
 }
 .indeximg2{
     height: 338px;
@@ -81,5 +75,19 @@ h2{
     padding-right: 20px;
 }
 #todo {
-    margin: 20px;
+    margin: 40px;
+}
+.parrafoespaciado{
+    padding: 40px;
+    width: 600px;
+}
+.imagenes{
+    display: grid;
+    grid-template-rows: 450px;
+}
+.img2{
+    padding: 10px;
+}
+.imagenes2{
+    padding: 10px;
 }
